@@ -1,0 +1,536 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .frame {
+    position: relative;
+    width: 25rem;
+    height: 45rem;
+    background: #f7f7f7;
+    margin: 4rem auto;
+    overflow-y: auto;
+  }
+  
+  .frame:before {
+    content: '';
+    width: 27rem;
+    height: 52rem;
+    left: -1rem;
+    top: -1rem;
+    opacity: 0.7;
+    z-index: -1;
+    position: absolute;
+    border-radius: 1rem;
+    background: slategrey;
+  }
+
+  .grey {
+      color: #a5b1c2;
+  }
+
+
+
+  .status-1 {
+      height: 2.3rem;
+      width: .2rem;
+      background: slategray;
+      align-self: center;
+      border-radius: 5px;
+  }
+
+  .first-section {
+     display: flex;
+     justify-content: space-between;
+  }
+
+  .company {
+      margin: 0 .2rem;
+  }
+
+  .first-section-2 {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 0.6rem;
+      margin-top: 1rem;
+  }
+
+  .first-section-2 img {
+      height: 1.5rem;
+      width: 1.5rem;
+  }
+
+  header{
+      border-bottom: 1px solid grey;
+  }
+
+  .first-section img {
+      height: 1rem;
+      width: 1rem;
+  }
+
+  .signals{
+      display: flex;
+      padding: 0;
+      
+  }
+
+  .profile-section-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: .5rem;
+  }
+
+  .avatar {
+      padding-top: .3rem;
+  }
+
+  .avatar a {
+      text-decoration: none;
+  }
+
+  .avatar-img-1 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/profile1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid #DE0046;
+  }
+
+  .follow-detail{
+      display: flex;
+      justify-content: space-between;
+      width: 15rem;
+      align-items: left;
+      margin-top: .6rem;
+  }
+
+  .follow-detail p{
+    text-align: center;
+}
+
+  .follow-btns{
+      display: flex;
+      justify-content: space-evenly;
+      margin: 1rem .3rem;
+  }
+
+  button.follow {
+    height: 2rem;
+    width: 10rem;
+    color: #fff;
+    background: #3742fa;
+    border:  1px solid #3742fa;
+  }
+
+  button.down{
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+    background: #3742fa;
+    border-radius:  1px;
+    border: 1px solid #3742fa;
+}
+
+.status-section  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    margin-bottom: .6rem;
+}
+
+.status {
+    justify-content: center;
+}
+
+.status-img-1 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/profile1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid #dfe4ea;
+}
+
+.status-img-2 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/profile2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid #dfe4ea;
+}
+
+
+.status-img-3 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/profile3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid #dfe4ea;
+}
+
+
+.status-img-4 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/profile4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid #dfe4ea;
+}
+
+.post-layout ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    border-top: 1px solid #bdc3c7;
+    padding: .4rem 0;
+}
+
+.post-layout img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(2, 9rem);
+    grid-gap: .09rem;
+}
+
+.grid-item-1 {
+    background:url(./images/post2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item-2 {
+    background:url(./images/post3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item-3 {
+    background:url(./images/post4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item-4 {
+    background:url(./images/post5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item-5 {
+    background:url(./images/post6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item-6 {
+    background:url(./images/post8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foot-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem 1rem;
+    background: #fafafa;
+    list-style: none;
+    border: .5px solid #fafafa;
+}
+
+.foot-icons img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo img {
+    height: auto !important;
+    width: 7rem !important;
+}
+
+.circle-1 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #DE0046;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.circle-2 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #546de5;
+}
+
+.igtv-icons-2 {
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+.igtv-icons-2 img {
+    height: 1rem !important;
+    width: 1rem !important;
+}
+
+
+.image-section-2 {
+    width: 25rem;
+    height: 15rem;
+    background:url(./images/post2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.comment-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    background:url(./images/profile1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.comment {
+    border: 0;
+    color: #a5b1c2;
+}
+
+.comment-section{
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+}
+
+.second-section-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .6rem;
+    margin: .2rem 0;
+}
+
+.second-section-3 img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+.logo{
+    font-size: 1.5rem !important;
+    text-align:center;
+}
+
+.profile-section-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: .8rem;
+}
+
+.avatar-img-3 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/profile1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid #DE0046;
+}
+
+.ellipsis {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.avatar-3 {
+    display: flex;
+}
+
+.avatar-info {
+    padding-left: .8rem;
+}
+
+.image-section-3 {
+    width: 25rem;
+    height: 23rem;
+    background:url(./images/post3.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.action-bar{
+    padding: .8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6rem;
+}
+
+.action img, .save img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.likes-count{
+    padding: 0 .8rem;
+    margin-bottom: .8rem;
+}
+
+.avatar-img-4 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/profile1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid #DE0046;
+}
+
+.image-section-4 {
+    width: 25rem;
+    height: 23rem;
+    background:url(./images/post4.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.status-section-5  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-top: .3rem;
+}
+
+.status {
+    justify-content: center;
+}
+
+.status-img-5-1 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/post9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid #dfe6e9;
+}
+
+.status-img-5-2 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/post10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid  #DE0046;
+}
+
+.status-img-5-3 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/profile3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid  #DE0046;
+}
+
+.status-img-5-4 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/min1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid  #DE0046;
+}
+
+.status-img-5-5 {
+    width: 4rem;
+    height: 4rem;
+    background:url(./images/min2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: .3rem solid  #DE0046;
+}
+
+.image-section-5 {
+    width: 25rem;
+    height: 18rem;
+    background:url(./images/post5.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.screen-1, .screen-2, .screen-3, .screen-4, .screen-5  {
+    overflow: hidden;
+}
+
+
+@media and screen (max-width: 700px) {
+    frames {
+        flex-direction: column;
+    }
+}
